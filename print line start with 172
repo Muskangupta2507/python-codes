@@ -1,0 +1,11 @@
+''' print lines which starts with 172 '''
+'''
+f=open("p.txt",'r')
+s=open("u.txt",'w')
+c=f.readlines()
+for i in c:
+    if (i[0:3]=='172'):
+        s.write(str(i))
+f.close()
+s.close()
+'''
