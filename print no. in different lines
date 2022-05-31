@@ -1,0 +1,8 @@
+'''  print numbers from 50  to 500 in different lines'''
+'''
+f=open("v.txt" ,'w')
+for i in range (50,501):
+    f.write(str(i))
+    f.write("\n")
+f.close()
+'''
